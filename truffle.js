@@ -7,12 +7,12 @@ module.exports = {
   networks: {
     development: {
       host: "localhost",
-      port: 18545,
+      port: 8545,
       network_id: "*"
     },
     live: {
       host: "localhost",
-      port: 8545,
+      port: 68545,
       network_id: "1"   // Match any network id
     },
     // ropsten: {
